@@ -31,6 +31,8 @@
 		F592F28217263A08009AEE04 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F592F28517263A08009AEE04 /* FileManager-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FileManager-Prefix.pch"; sourceTree = "<group>"; };
 		F592F28617263A08009AEE04 /* FileManager.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = FileManager.1; sourceTree = "<group>"; };
+		F592F28D17265039009AEE04 /* Linux.doc */ = {isa = PBXFileReference; lastKnownFileType = file; path = Linux.doc; sourceTree = "<group>"; };
+		F592F28E172650B4009AEE04 /* file.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = file.txt; path = FileManager/file.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +50,7 @@
 		F592F27317263A08009AEE04 = {
 			isa = PBXGroup;
 			children = (
+				F592F28E172650B4009AEE04 /* file.txt */,
 				F592F28117263A08009AEE04 /* FileManager */,
 				F592F27E17263A08009AEE04 /* Frameworks */,
 				F592F27D17263A08009AEE04 /* Products */,
@@ -83,6 +86,7 @@
 		F592F28417263A08009AEE04 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F592F28D17265039009AEE04 /* Linux.doc */,
 				F592F28517263A08009AEE04 /* FileManager-Prefix.pch */,
 			);
 			name = "Supporting Files";

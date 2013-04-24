@@ -16,6 +16,7 @@
 		F5239447172591A300F79DD4 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = F5239440172591A300F79DD4 /* FMDatabaseQueue.m */; };
 		F5239448172591A300F79DD4 /* fmdb.m in Sources */ = {isa = PBXBuildFile; fileRef = F5239441172591A300F79DD4 /* fmdb.m */; };
 		F5239449172591A300F79DD4 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = F5239443172591A300F79DD4 /* FMResultSet.m */; };
+		F592F2461725A117009AEE04 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F592F2451725A117009AEE04 /* libsqlite3.0.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -48,6 +49,7 @@
 		F5239441172591A300F79DD4 /* fmdb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = fmdb.m; sourceTree = "<group>"; };
 		F5239442172591A300F79DD4 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
 		F5239443172591A300F79DD4 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		F592F2451725A117009AEE04 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F592F2461725A117009AEE04 /* libsqlite3.0.dylib in Frameworks */,
 				F523942C1725918700F79DD4 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -65,6 +68,7 @@
 		F523941F1725918700F79DD4 = {
 			isa = PBXGroup;
 			children = (
+				F592F2451725A117009AEE04 /* libsqlite3.0.dylib */,
 				F523942D1725918700F79DD4 /* sqliteTest */,
 				F523942A1725918700F79DD4 /* Frameworks */,
 				F52394291725918700F79DD4 /* Products */,
@@ -274,6 +278,7 @@
 				F52394381725918700F79DD4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

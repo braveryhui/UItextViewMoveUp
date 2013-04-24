@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface CustomCellImageCell : UITableViewCell
-
+{
+    UIImageView *imageview;
+}
+-(void)setCellImage:(UIImage *)img;
 @end
